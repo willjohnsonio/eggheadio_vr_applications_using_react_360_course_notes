@@ -39,6 +39,7 @@ Get stated with React 360 by installing the React 360 CLI. Once the install has 
 
 
    **Resources**
+   
    [Setting up Tools, and Creating Your First Project](https://facebook.github.io/react-360/docs/setup.html)
 
    [View in React Native](https://facebook.github.io/react-native/docs/view#docsNav)
