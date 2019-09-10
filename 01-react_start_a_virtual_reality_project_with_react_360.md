@@ -1,6 +1,6 @@
 [Video Link](https://egghead.io/lessons/react-start-a-virtual-reality-project-with-react-360)
 
-# Start a Virtual Reality project with React 360
+# 01. Start a Virtual Reality project with React 360
 
 Get stated with React 360 by installing the React 360 CLI. Once the install has been completed use the `init` command to create a new project. We'll callt his project `travelVR`
 
