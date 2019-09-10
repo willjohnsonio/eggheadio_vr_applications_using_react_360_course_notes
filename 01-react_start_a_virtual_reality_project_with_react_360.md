@@ -21,6 +21,7 @@ Get stated with React 360 by installing the React 360 CLI. Once the install has 
    After all the dependencies are loaded. You should have a 360 'Welcome to React 360 screen', that you can look around on.
 
    **The important thing to remember about React 360**
+   
    Even though it runs in a VR environment, its not that different from the React we know on the web
 
    We have an index.html file. We have things like **React components**. Something from React Native called **View**. Also, we have the **StyleSheet** object so we can write CSS-in-JS in VR.
