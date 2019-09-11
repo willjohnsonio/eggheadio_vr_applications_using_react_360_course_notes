@@ -2,7 +2,7 @@
 
 # 01. Start a Virtual Reality project with React 360
 
-Get stated with React 360 by installing the React 360 CLI. Once the install has been completed use the `init` command to create a new project. We'll callt his project `travelVR`
+Get stated with React 360 by installing the React 360 CLI. Once the install has been completed use the `init` command to create a new project. We'll call this project `travelVR`
 
 ```npm install react-360-cli -g
 
