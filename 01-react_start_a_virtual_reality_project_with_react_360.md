@@ -13,7 +13,7 @@ Get stated with React 360 by installing the React 360 CLI. Once the install has 
 
    ```cd TravelVR
 
-      npm start
+   npm start
    ```
 
    Once that's done it will tell us to open our browser to a localhost URL (http://localhost:8081/index.html)
