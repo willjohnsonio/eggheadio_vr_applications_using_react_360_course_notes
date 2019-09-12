@@ -15,7 +15,7 @@ export default class travelVR extends React.Component {
 const styles = StyleSheet.create({});
 ```
 
-Then create a ```<View>``` component inside of the ```travelVR``` componenent. Inside of ```<View>``` add a ```<Text>``` component. Inside you ```<Text>``` type in Hello Egghead
+Then create a ```<View>``` component inside of the ```travelVR``` component. Inside of ```<View>``` add a ```<Text>``` component. Inside you ```<Text>``` type in Hello Egghead
 
 Save & Refresh to see your new text
 
