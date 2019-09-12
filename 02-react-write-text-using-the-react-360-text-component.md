@@ -15,7 +15,7 @@ export default class travelVR extends React.Component {
 const styles = StyleSheet.create({});
 ```
 
-Then create a ```<View>``` component inside of the ```travelVR``` component. Inside of ```<View>``` add a ```<Text>``` component. Inside you ```<Text>``` type in Hello Egghead
+Then create a ```<View>``` component inside of the ```travelVR``` component. Inside of the ```<View>``` component add a ```<Text>``` component. Inside of the ```<Text>``` component type in Hello Egghead.
 
 Save & Refresh to see your new text
 
@@ -31,7 +31,7 @@ export default class travelVR extends React.Component {
 }
 ```
 
-So we can style both ```<View>``` (which is like a div) and ```<Text>``` we can go inside of the StyleSheet.create and create ```mainView``` and ```greetings``` objects and set style inside of them like this.
+So we can style both ```<View>``` (which is like a div) and ```<Text>``` we can go inside of the StyleSheet.create and create ```mainView``` and ```greetings``` objects and define styles inside of them like this.
 
 
 ```javascript
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 })
 ```
 
-React component takes a ```style``` property. We can our ```<View>``` component by adding style and setting equal to ```styles.mainView``` that will make our ```<View>``` container take on the styles we set. We style the text by add ```style``` to the ```<Text>``` component and make it equal to ```styles.greetings```.
+React components take a ```style``` property. We can style our ```<View>``` component by adding ```style``` and setting it equal to ```styles.mainView``` that will make our ```<View>``` container take on the styles we defined in our ```mainView``` object. We style the text by adding ```style``` to the ```<Text>``` component and make it equal to ```styles.greetings```.
 
 ```javascript
 	export default class travelVR extends React.Component {
