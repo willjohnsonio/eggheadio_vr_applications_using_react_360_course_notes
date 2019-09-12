@@ -2,7 +2,7 @@
 
 # 02. Write text using the React 360 Text component
 
-To write our own text and style we need to remove the boilerplat from the ```travelVR``` component (have it return null;) and any default styles from ```StyleSheet.create```
+To write our own text and style we need to remove the boilerplate from the ```travelVR``` component (have it return null;) and any default styles from ```StyleSheet.create```
 
 
 ```javascript
