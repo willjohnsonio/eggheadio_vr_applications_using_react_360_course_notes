@@ -2,7 +2,7 @@
 
 [Video Link](https://egghead.io/lessons/react-display-images-using-the-image-component-in-react-360)
 
-The first we need to do to display and image is ```import``` image from ```react-360``` 
+The first thing we need to do, in order to display an image is ```import``` image from ```react-360``` 
 
 ```javascript
 import React from "react"
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
 })
 ```
 
-Images can be displayed from the internet or from our ```static_assets``` folder in our project. to add our image we need to add ```style``` to our ```<Image>``` component and set the style to ```flag```. Next we add ```source``` to our ```<Image>``` component and set it to an object with a url property and a url for our image as the value. Save & refresh and an image wil be displayed on the screen.
+Images can be displayed from the internet or from our ```static_assets``` folder in our project. To add our image we need to add ```style``` to our ```<Image>``` component and set the style to ```flag```. Next we add ```source``` to our ```<Image>``` component and set it to an object with a url property and a url for our image as the value. Save & refresh and an image wil be displayed on the screen.
 
 ```javascript
 return (
@@ -64,7 +64,7 @@ return (
   </View>
 ```
 
-The ```asset``` function looks inside of the assets function directory and grabs the flag_italy.png for us(which is a lot easier than using using the filepath).
+The ```asset``` function looks inside of the assets directory and grabs the flag_italy.png for us(which is a lot easier than using using the filepath).
 
 
 Save & refresh and now we should have two ```<Image>``` components with two flags displayed from two different sources.
