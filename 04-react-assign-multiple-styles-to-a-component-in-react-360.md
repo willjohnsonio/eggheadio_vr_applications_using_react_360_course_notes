@@ -4,7 +4,7 @@
 
 Now we have our ```<View>``` component with a list of countries that we want to visit. Also, in ```StyleSheet.create``` we have a country object for each country on our list. Inside the objects we have a background color defined as a color that comes from the flag of each country in our list. We want to apply the color property to each country in our list.
 
-We're going to destructure all the styles from ```styles`` object
+We're going to destructure all the styles from ```styles``` object
 
 ```javascript
 const { mainView, menuItem, poland, ukraine, uk, spain, italy, greece } = styles
