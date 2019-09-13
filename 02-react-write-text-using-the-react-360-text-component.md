@@ -86,4 +86,4 @@ Save & refresh and now we should have two ```<View>``` components with the exact
 
 
 ## Personal Take:
-I really like how this lesson was focused on action, we made a lot of changes and it was easy to grasp. I feel like it was effective in helping me be confident to re-create these steps on my own and understand what i doing
+I really like how this lesson was focused on action, we made a lot of changes and it was easy to grasp. I feel like it was effective in helping me be confident to re-create these steps on my own and understand what I'm doing.
