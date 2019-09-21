@@ -1,4 +1,4 @@
-# 11. Create Native Modules to extend React 360 app functionality
+# 13. Create Native Modules to extend React 360 app functionality
 
 [Video Link](https://egghead.io/lessons/react-create-native-modules-to-extend-react-360-app-functionality)
 
