@@ -66,7 +66,7 @@ changeBackground(panorama, name) {
 }
 ```` 
 
-Now if we clock on the flags it will say Welcome to the countres name in the tabs on your browser.
+Now if we click on the flags it will say Welcome to the countres name in the tabs on your browser.
 
 
 
