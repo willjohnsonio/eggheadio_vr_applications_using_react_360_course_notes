@@ -11,7 +11,7 @@ and import asset and view from 'react-360'
 import React from "react"
 import { asset, View } from "react-360"
 ```
-You can use the ```<Entity>``` component to bring your 3D model in your project. Create a new components ours will be called earth and it will extend React.component and render a ```<View>``` component inside of it then ```<Entity>``` inside of ```<View>```
+You can use the ```<Entity>``` component to bring your 3D model in your project. Create a new component ours will be called earth and it will extend React.component and render a ```<View>``` component inside of it then ```<Entity>``` inside of ```<View>```
 
 Entity is what allows us to bring in 3D models. You can either design something ot use a website like Google Poly and download a free models. 
 
