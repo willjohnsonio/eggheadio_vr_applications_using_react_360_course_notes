@@ -23,7 +23,7 @@ import { ReactInstance, Location, Surface, Module } from "react-360-web"
 
 class TitleChanger extends Module {}
 ````
-We need to make a c```<contructor>``` inside of the ```<TitleChanger>``` class. Then we create a ```<super>``` and pass in ```<TitleChanger>``` to it. Whatever is specified here is going to exposed to React 360.
+We need to make a ```<contructor>``` inside of the ```<TitleChanger>``` class. Then we create a ```<super>``` and pass in ```<TitleChanger>``` to it. Whatever is specified here is going to exposed to React 360.
 
 ```javascript
 import { ReactInstance, Location, Surface, Module } from "react-360-web"
