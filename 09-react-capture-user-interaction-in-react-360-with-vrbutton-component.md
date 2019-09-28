@@ -1,4 +1,4 @@
-[Video Link]https://egghead.io/lessons/react-capture-user-interaction-in-react-360-with-vrbutton-component)
+[Video Link](https://egghead.io/lessons/react-capture-user-interaction-in-react-360-with-vrbutton-component)
 
 # 09. Capture user interaction in React 360 with VrButton component
 
