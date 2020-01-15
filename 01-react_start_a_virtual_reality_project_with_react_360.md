@@ -1,68 +1,49 @@
 [Video Link](https://egghead.io/lessons/react-start-a-virtual-reality-project-with-react-360)
 
-# 01. Set up Vue-Router and add the Root Application Route
+# 01. Start a Virtual Reality project with React 360
+
+Get stated with React 360 by installing the React 360 CLI. Once the install has been completed use the `init` command to create a new project. We'll call this project `travelVR`
+
+```npm install react-360-cli -g
+
+   react-360 init travelVR
+   ```
+
+   Once the dependecies are done, go into the product directory used `cd` and the project name. Then run `npm start` to start the React Native Packager.
+
+   ```cd TravelVR
+
+   npm start
+   ```
+
+   Once that's done it will tell us to open our browser to a localhost URL (http://localhost:8081/index.html)
+
+   After all the dependencies are loaded. You should have a 360 'Welcome to React 360 screen', that you can look around on.
+
+   **The important thing to remember about React 360**
+   
+   Even though it runs in a VR environment, its not that different from the React we know on the web
+
+   We have an index.html file. We have things like **React components**. Something from React Native called **View**. Also, we have the **StyleSheet** object so we can write CSS-in-JS in VR.
+
+
+   To make sure everything is set up properly change the text from 'Welcome to React 360' to 'Welcome to egghead'. Save and refresh, if the text on the screen changes it's time to getting going and implement our app!
+
+   ```
+    <Text style={styles.greeting}>
+    Welcome to EggHead
+    </Text>
+
+   ```
 
 
 
-Use `npm to insall --save vue-router` to install Vue Router. The `--save` flag to add it to the package.json. Then run the app with the `npm run serve` 
-
-Inside of main.js, `import VueRouter from vue router`. Then use the `Vue.use` function and pass in `VueRouter`
-
-Then you'll create an emtpy routes array
-
-```js
-import VueRouter from 'vue-router'
-.
-.
-.
-Vue.use(VueRouter)
-
-const routes = []
-```
-
-Use `const router = new VueRouter` to create a new instance of `vue-router`. Inside of the new `VueRouter` add your empty routes array you created. Set the `mode` key to the value of `history` then add the `router` to the Vue app
-
-```js
-const router = new VueRouter({
-   routes,
-   mode: 'history'
-})
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount("#app");
-```
-
-In the `App.vue` file we add the `<router-view>` tag inside of the the div tags with the id of app.
-```html
- <div id="app">
-    <router-view></router-view>
-  </div>
-```
-
-All route components will ppear in `<router view>`
-
-In the main.js folder inside the empty `routes`array. Create a route record which is an object. It requres a path key and component key. Set the path key to `'/'` and the component key to Home.
-
-**Make sure to import the Home component**
-
-```js
-import Home from './components/Home'
-.
-.
-.
-const routes = [
-  {
-    path: '/',
-    component: Home
-  }
-]
-```
 
    **Resources**
    
-   [Installation Docs](https://router.vuejs.org/installation.html#direct-download-cdn)
+   [Setting up Tools, and Creating Your First Project](https://facebook.github.io/react-360/docs/setup.html)
 
-   [Getting Started Docs](https://router.vuejs.org/guide/#html)
+   [View in React Native](https://facebook.github.io/react-native/docs/view#docsNav)
+
+   [StyleSheet](https://facebook.github.io/react-native/docs/stylesheet)
 
