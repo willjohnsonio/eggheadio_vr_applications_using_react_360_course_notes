@@ -1,6 +1,9 @@
 # egghead.io VR Applications Using React 360 Course Notes
 
-![](React360.png)
+<p align="center"><img src="React360.png" width="200"></p>
+
+
+
 
 
 This repo contains notes taken from Tomasz Łakomy's [React 360 course](https://egghead.io/courses/vr-applications-using-react-360).
