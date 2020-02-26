@@ -17,3 +17,5 @@ Nothing to say just deploying
 
 # Resources
 [React Native Animated Library Docs](http://facebook.github.io/react-native/docs/animated.html)
+
+[Flash Cards Over Course](https://tiny.cards/decks/P2bLtJMF/vr-applications-using-react-360)
