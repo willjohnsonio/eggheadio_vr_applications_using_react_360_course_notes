@@ -1,4 +1,4 @@
-[Video Link]https://egghead.io/lessons/react-add-3d-objects-to-a-react-360-application)
+[Video Link](https://egghead.io/lessons/react-add-3d-objects-to-a-react-360-application)
 
 # 08. Add 3D objects to a React 360 application
 
